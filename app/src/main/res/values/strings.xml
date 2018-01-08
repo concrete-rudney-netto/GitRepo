@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">GitRepo</string>
+    <string name="title_name">Nome Repositório</string>
+    <string name="description_name">This describes the resources that make up the official GitHub REST API v3. If you have any problems or requests please contact GitHub support.</string>
+    <string name="username">izabela.cdsa</string>
+    <string name="completename">Izabela Araujo</string>
+    <string name="git">GitHub\nRepository</string>
+
+
+
 </resources>
