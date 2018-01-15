@@ -36,7 +36,7 @@ public class HttpClient {
 
     }
 
-    public void getRepoPull(Callback<Application> callback) {
+    public void getRepoPull(Callback<List<Application>> callback) {
 
         Call<List<Application>> call = api.getRepoPull(login, name);
         call.enqueue(callback);
