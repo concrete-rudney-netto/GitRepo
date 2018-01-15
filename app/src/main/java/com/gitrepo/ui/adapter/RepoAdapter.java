@@ -12,7 +12,7 @@ import com.gitrepo.R;
 import com.gitrepo.model.Application;
 import com.gitrepo.model.Item;
 import com.gitrepo.ui.activities.MainActivity;
-import com.gitrepo.utils.ScreenManager;
+import com.gitrepo.util.ScreenManager;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

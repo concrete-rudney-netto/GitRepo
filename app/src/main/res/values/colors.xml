@@ -3,6 +3,7 @@
     <color name="colorPrimary">#311B92</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorSecondary">#3F51B5</color>
+    <color name="blueHappy">#0277BD</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorGray">#ededed</color>
     <color name="colorGrayPrimary">#424242</color>

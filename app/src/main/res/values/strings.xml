@@ -5,6 +5,9 @@
     <string name="username">izabela.cdsa</string>
     <string name="completename">Izabela Araujo</string>
     <string name="git">GitHub\nRepository</string>
+    <string name="title_pull">Título do Pull Request</string>
+    <string name="body_pull">"Pull request title Add pattern trampoline.https://github.com/iluwatar/java-design-patterns/issues/677 Pull request description Add readme, code,test.For detailed contributing instructions see https://github.com/iluwatar/java-design-patterns/wiki/01.-How-to-contribute</string>
+
 
 
 

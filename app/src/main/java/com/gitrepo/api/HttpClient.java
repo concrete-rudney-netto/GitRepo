@@ -1,8 +1,9 @@
 package com.gitrepo.api;
 
-import android.app.Application;
+import com.gitrepo.model.Application;
 
-import okhttp3.ResponseBody;
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Retrofit;
@@ -15,6 +16,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class HttpClient {
 
     RepoService api;
+    public String name;
+    public String login;
 
     public HttpClient() {
 
@@ -29,6 +32,13 @@ public class HttpClient {
     public void getRepo(Callback<com.gitrepo.model.Application> callback) {
 
         Call<com.gitrepo.model.Application> call = api.getRepo();
+        call.enqueue(callback);
+
+    }
+
+    public void getRepoPull(Callback<Application> callback) {
+
+        Call<List<Application>> call = api.getRepoPull(login, name);
         call.enqueue(callback);
 
     }

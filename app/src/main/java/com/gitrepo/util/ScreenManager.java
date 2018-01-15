@@ -1,18 +1,18 @@
-package com.gitrepo.utils;
+package com.gitrepo.util;
 
 import android.content.Context;
 import android.content.Intent;
 
-import com.gitrepo.ui.activities.RepoDescriptionActivity;
+import com.gitrepo.ui.activities.RepoPullActivity;
 
 /**
- * Created by izabela on 1/8/18.
+ * Created by izabela on 12/4/17.
  */
 
 public class ScreenManager {
 
     public static void goToRepoDescription(Context context) {
-        Intent intent = new Intent(context, RepoDescriptionActivity.class);
+        Intent intent = new Intent(context, RepoPullActivity.class);
         context.startActivity(intent);
     }
 }
